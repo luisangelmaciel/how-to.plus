@@ -24,7 +24,7 @@
 }
 
 .FABMenu {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
@@ -163,4 +163,12 @@
 .FABMenu input:checked~.action_items_bar .action_items .fourth_item {
     opacity: 1;
     transition-delay: .45s;
+}
+
+.w3-display-bottommiddle {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%)
 }
